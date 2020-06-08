@@ -68,18 +68,6 @@ body {
   margin-left: 80px;
 }
 
-/* .site-nav .item {
-  margin-right: 50px;
-} */
-
-/* .site-nav .item:last-child {
-  margin-right: 0;
-} */
-
-/* .site-nav .item + .item {
-  margin-left: 50px;
-} */
-
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -95,6 +83,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -112,7 +102,6 @@ body {
   display: flex;
   margin-left: auto;
   justify-content: flex-end;
-  /* margin-left: 334px; */
 }
 .contacts-link .email,
 .contacts-link .tel {
@@ -125,6 +114,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link .email:hover,
@@ -209,6 +200,9 @@ body {
   min-width: 200px;
   border: 1px solid transparent;
   display: inline-block;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero .button:hover,
@@ -299,10 +293,6 @@ body {
   margin-right: 30px;
 }
 
-/* .project-item .title {
-  position: absolute;
-  bottom: 0;
-} */
 .project-item .title {
   position: absolute;
   left: 0;
@@ -354,6 +344,9 @@ body {
   padding: 6px 22px;
   border: 1px solid transparent;
   display: inline-block;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-item:not(:last-child) {
@@ -380,6 +373,8 @@ body {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-card:nth-child(3n) {
@@ -502,6 +497,9 @@ body {
   border-radius: 50%;
 
   background-color: #ffffff;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   fill: #afb1b8;
@@ -550,6 +548,9 @@ body {
   background-color: #ffffff;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.logo-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-card .link:hover,
@@ -610,6 +611,8 @@ body {
 .address .info {
   color: var(--primery-text-color);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address .info:hover,
@@ -656,6 +659,10 @@ body {
   border-radius: 50%;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon .info {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon:not(:last-child) {
