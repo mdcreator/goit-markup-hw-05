@@ -27,7 +27,7 @@ body {
 
 /* Header */
 .page-header {
-  outline: 1px solid var(--primery-text-color);
+  outline: 1px solid #ececec;
 }
 
 .container {
@@ -483,7 +483,7 @@ body {
   position: absolute;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -494,8 +494,8 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   background-color: var(--accent-color);
-}
-/* .project-image::before {
+} */
+.project-image::before {
   content: '';
   display: inline-block;
 
@@ -506,7 +506,7 @@ body {
   left: 0;
   transform: translateY(100%);
   background-color: rgba(33, 150, 243, 0.9);
-} */
+}
 
 .project:hover .text {
   opacity: 1;
